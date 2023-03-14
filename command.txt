@@ -1,0 +1,11 @@
+프로젝트 생성
+django-admin startproject 포로젝트명
+
+서버 실행
+python manage.py runserver
+
+Migration : 모델이 생긴 변화(삭제나 추가)를 반영하는 장고 방식
+python manage.py migrate
+
+
+

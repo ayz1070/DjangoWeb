@@ -132,3 +132,7 @@ dmypy.json
 # Pycharm files
 # 깃허브 업로드 막기
 .idea/
+
+#DB migrations
+
+migrations/

@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# 우리가 설치한 앱들의 목록
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # 블로그하고 싱글 페이지 만들었잖아! 추가해주자!
+    'blog',
+    'single_pages'
 ]
 
 MIDDLEWARE = [
